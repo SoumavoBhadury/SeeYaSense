@@ -5,6 +5,7 @@ from ultralytics.yolo.v8.detect.predict import DetectionPredictor
 import time
 from playsound import playsound
 from camera_input_live import camera_input_live
+st.set_page_config(page_title="Mywebpage", page_icon=":tada:", layout="centered")
 
 model = YOLO('../Models/final.pt')
 # src = 'download.jpg'
