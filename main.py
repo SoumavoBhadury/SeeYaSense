@@ -6,8 +6,7 @@ from ultralytics.yolo.v8.detect.predict import DetectionPredictor
 model = YOLO('../Models/final.pt')
 def predict():
     results = model.predict(source="0", show=True, conf=0.5)
-    print(results)
-    #print(type(results))
+    print(type(results))
 
 
 
